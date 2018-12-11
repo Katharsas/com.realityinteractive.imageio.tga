@@ -229,7 +229,7 @@ public class TGAImageReaderSpi extends ImageReaderSpi
         throws IOException
     {
         // construct and return an ImageReader using this SPI
-        return new TGAImageReader(this);
+        return new TGAImageReader2(this);
     }
 
     /**
